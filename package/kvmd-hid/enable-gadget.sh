@@ -212,3 +212,10 @@ fi
 ls /sys/class/udc > "${USB_DEVICE_PATH}/UDC"
 chmod 777 /dev/hidg0
 chmod 777 /dev/hidg1
+
+# Ensure log files exist and are writable
+touch /tmp/keyboard_log.txt
+chmod 666 /tmp/keyboard_log.txt
+
+touch /tmp/mouse_log.txt
+chmod 666 /tmp/mouse_log.txt
