@@ -1,6 +1,6 @@
 [submodule "web_src/web_server"]
 	path = web_src/web_server
-	url = https://github.com/ThomasVon2021/blikvm-web-server.git
+	url = https://github.com/adouglass52/blikvm-web-server_hid.git
 	branch = master
 [submodule "web_src/web_client"]
 	path = web_src/web_client
