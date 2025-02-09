@@ -18,8 +18,8 @@ pi4b_board = "Raspberry Pi 4 Model B"
 cm4b_board = "Raspberry Pi Compute Module 4"
 h616_board = "MangoPi Mcore"
 
-code_owner = "ThomasVon2021"
-code_repo = "blikvm"
+code_owner = "aoudlgass52"
+code_repo = "blikvm_hid"
 file_name = ""
 
 class BoardType(Enum):
